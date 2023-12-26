@@ -1,5 +1,5 @@
 # Palo Alto Networks - XSOAR
-This repository contains helpfull custom **integrations** and **automations** that I personally developed and can be applied universally in xsoar.
+This repository contains helpfull custom **integrations** and **automations** that I personally developed or extended base XSOAR capabilities that can be applied universally in xsoar.
 Hopefully you will find something useful here that can help or speed up your goal.
 
 **Note**: I will be adding further things as I see fit, so make sure to keep an eye out

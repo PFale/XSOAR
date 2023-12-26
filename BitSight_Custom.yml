@@ -1,0 +1,1597 @@
+commonfields:
+  id: BitSight_Custom
+  version: -1
+vcShouldKeepItemLegacyProdMachine: false
+name: BitSight_Custom
+display: BitSight_Custom
+category: Utilities
+image: data:image/png;base64,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
+description: |-
+  Adapted from:
+  Use the "BitSight for Security Performance Management" Integration to get company guid, details, and findings. This integration also allows to fetch the findings by using the fetch incidents capability.
+detaileddescription: |-
+  ### Partner Contributed Integration
+  #### Integration Author: BitSight
+  Support and maintenance for this integration are provided by the author. Please use the following contact details:
+  - **Email**: [support@bitsight.com](mailto:support@bitsight.com)
+  - **URL**: [https://service.bitsighttech.com/](https://service.bitsighttech.com/)
+  ***
+  ### Getting Started with BitSight for Security Performance Management
+
+  To get started with the integration, contact BitSight support so that your BitSight portal can be enabled to share findings with Cortext XSOAR.
+
+  API Key: BitSight customers can generate an API token to enable communication between BitSight and Cortex XSOAR. Steps for generating an API token:
+
+  1) Login to BitSight SPM at https://service.bitsighttech.com/app/spm/.
+  2) Click on the gear icon in top-right side.
+  3) In the dropdown menu, click on "Account".
+  4) In the "User Preferences" tab, there will be a section "API Token" to generate a new API Token.
+  5) Click on "Generate New Token" and use that token to authenticate the BitSight integration in XSOAR.
+
+  Company's GUID: Each company monitored by BitSight is identified by a unique identifier (Global Unique Identifier, or GUID). In addition, each subsidiary company associated with a parent company also has a GUID and is organized in a hierarchical tree structure.
+
+  You can specify the GUID for a parent or subsidiary company in your company tree. Any issues related to that company and its child companies in the tree structure will be retrieved. You can easily find the GUID for your parent organization by executing the following command:
+
+
+  "bitsight-companies-guid-get"
+
+  First fetch time in days: When running for the first time, the integration will take input from this parameter and retrieve incidents for the given number of days.
+
+  Findings Minimum Severity: This parameter helps to filter the record based on minimum severity entered here. You can choose one of the severity listed.
+
+  Findings Minimum Asset Category: This parameter helps to filter the record based on the minimum asset category entered here. You can choose one of the asset categories listed.
+
+  Findings Grade: This parameter helps to filter the record based on Grade. You can choose multiple grades listed.
+
+  Risk Vector: Parameter helps to filter the record based on Risk Vector. By default, 'All' will be selected, if you need only particular values you can unselect 'All' and select the required values listed.
+
+  Note: Please be sure to click on 'Reset the "last run" timestamp', when changing the values of parameters 'First fetch time in days', 'Findings Minimum Severity', 'Findings Minimum Asset Category', 'Findings Grade' or 'Risk Vector' after fetching has started to avoid dropping of findings.
+
+
+  ---
+  [View Integration Documentation](https://xsoar.pan.dev/docs/reference/integrations/bit-sight-for-security-performance-management)
+configuration:
+- display: API Key
+  name: apikey
+  type: 4
+  required: true
+- display: Company's GUID
+  name: guid
+  type: 0
+  required: false
+  additionalinfo: Use "bitsight-companies-guid-get" command to retrieve the company's
+    GUID.
+- display: First fetch time in days
+  name: first_fetch
+  defaultvalue: "3"
+  type: 0
+  required: false
+  additionalinfo: Enter the number in days. When the fetch incident runs for first
+    time, incidents will be fetched for a given number of days.
+- display: Max Fetch
+  name: max_fetch
+  defaultvalue: "25"
+  type: 0
+  required: false
+  additionalinfo: Maximum number of incidents to fetch. The maximum value is 200.
+- display: Findings Minimum Severity
+  name: findings_min_severity
+  defaultvalue: Material
+  type: 15
+  required: false
+  options:
+  - Minor
+  - Moderate
+  - Material
+  - Severe
+  additionalinfo: Minimum severity of the findings to fetch.
+- display: Findings Minimum Asset Category
+  name: findings_min_asset_category
+  defaultvalue: High
+  type: 15
+  required: false
+  options:
+  - Low
+  - Medium
+  - High
+  - Critical
+  additionalinfo: Filter by the asset category (critical, high, medium, low).
+- display: Findings Grade
+  name: findings_grade
+  defaultvalue: WARN,BAD
+  type: 16
+  required: false
+  options:
+  - GOOD
+  - FAIR
+  - WARN
+  - BAD
+  - NEUTRAL
+  additionalinfo: Filter the result by the value of grade.
+- display: Risk Vector ('All' has been selected by default)
+  name: risk_vector
+  defaultvalue: All
+  type: 16
+  required: false
+  options:
+  - Web Application Headers
+  - Botnet Infections
+  - Breaches
+  - Desktop Software
+  - DKIM
+  - DNSSEC
+  - File Sharing
+  - Insecure Systems
+  - Malware Servers
+  - Mobile App Publications
+  - Mobile Application Security
+  - Mobile Software
+  - Open Ports
+  - Patching Cadence
+  - Potentially Exploited
+  - Server Software
+  - Spam Propagation
+  - SPF
+  - SSL Certificates
+  - SSL Configurations
+  - Unsolicited Communications
+  - All
+  additionalinfo: This parameter supports comma separated list of values. By default
+    'All' will be selected, if you need only particular values you can unselect 'All'
+    and select the required values.
+- display: Trust any certificate (not secure)
+  name: insecure
+  type: 8
+  required: false
+- display: Use system proxy settings
+  name: proxy
+  type: 8
+  required: false
+- display: Fetch incidents
+  name: isFetch
+  type: 8
+  required: false
+- display: Incident type
+  name: incidentType
+  type: 13
+  required: false
+- display: Incidents Fetch Interval
+  name: incidentFetchInterval
+  defaultvalue: "1"
+  type: 19
+  required: false
+script:
+  script: |
+    register_module_line('BitSight for Security Performance Management', 'start', __line__())
+    ### pack version: 1.1.17
+
+
+    """Main file for BitSightForSecurityPerformanceManagement Integration."""
+    import requests
+    import urllib3
+    #import json
+    import requests
+
+    '''CONSTANTS'''
+    BITSIGHT_DATE_TIME_FORMAT = '%Y-%m-%d'
+    DEFAULT_FIRST_FETCH_DAYS = 3
+    DEFAULT_FETCH_LIMIT = 25
+    MAX_FETCH_LIMIT = 200
+    BASE_URL = "https://api.bitsighttech.com"
+    MAX_LIMIT = 1000
+    DEFAULT_LIMIT = 100
+    DEFAULT_OFFSET = 0
+
+    ERROR_MESSAGES = {
+        "GUID_REQUIRED": "Must provide a GUID.",
+        "GUID_NOT_FETCHED": "Unable to fetch GUID.",
+        "GUID_NOT_AVAILABLE": "Provided 'Company's GUID' is not available/valid."
+                              " Please input a GUID retrieved using the command \"bitsight-companies-guid-get\".",
+        "INVALID_SELECT": "'{}' is an invalid value for '{}'. Value must be in {}.",
+        "INVALID_MAX_FETCH": f"Parameter 'Max Fetch' is not a valid number."
+                             f" Please provide a number in range 1 to {MAX_FETCH_LIMIT}.",
+        "NEGATIVE_FIRST_FETCH": "Parameter 'First fetch time in days' should be a number greater than or equal to 0.",
+        "LIMIT_GREATER_THAN_ALLOWED": f"Argument 'limit' should be a number less than or equal to {MAX_LIMIT}."
+    }
+
+    SEVERITY_MAPPING = {
+        'minor': 1,
+        'moderate': 4,
+        'material': 7,
+        'severe': 9
+    }
+
+    ASSET_CATEGORY_MAPPING = {
+        'low': 'low,medium,high,critical',
+        'medium': 'medium,high,critical',
+        'high': 'high,critical',
+        'critical': 'critical'
+    }
+
+    RISK_VECTOR_MAPPING = {
+        'web application headers': 'application_security',
+        'botnet infections': 'botnet_infections',
+        'breaches': 'data_breaches',
+        'desktop software': 'desktop_software',
+        'dkim': 'dkim',
+        'dnssec': 'dnssec',
+        'file sharing': 'file_sharing',
+        'insecure systems': 'insecure_systems',
+        'malware servers': 'malware_servers',
+        'mobile app publications': 'mobile_app_publications',
+        'mobile application security': 'mobile_application_security',
+        'mobile software': 'mobile_software',
+        'open ports': 'open_ports',
+        'patching cadence': 'patching_cadence',
+        'potentially exploited': 'potentially_exploited',
+        'server software': 'server_software',
+        'spam propagation': 'spam_propagation',
+        'spf': 'SPF',
+        'ssl certificates': 'ssl_certificates',
+        'ssl configurations': 'ssl_configurations',
+        'unsolicited communications': 'unsolicited_comm'
+    }
+
+    # Disable insecure warnings
+    urllib3.disable_warnings()
+
+
+    class Client(BaseClient):
+        """Client will implement the service API, should not contain Cortex XSOAR logic. \
+        Should do requests and return data."""
+
+        def get_companies_guid(self):
+            """Retrieve subscribed company details."""
+            uri = 'v1/companies'
+            return self._http_request(
+                method='GET',
+                url_suffix=uri
+            )
+
+        def get_company_detail(self, guid):
+            """
+            Retrieve company details based on its Guid.
+
+            :param guid: guid of the company whose details need to be retrieved
+            """
+            uri = f'v1/companies/{encode_string_results(guid)}'
+            return self._http_request(
+                method='GET',
+                url_suffix=uri
+            )
+
+        def get_company_findings(self, guid, first_seen, last_seen, optional_params=None):
+            """
+            Retrieve company findings based on its Guid.
+
+            :param guid: guid of the company whose findings need to be retrieved
+            :param first_seen: first seen date (YYYY-MM-DD) of the findings
+            :param last_seen: last seen date (YYYY-MM-DD) of the findings
+            :param optional_params: params to be passed to the findings endpoint
+            """
+            uri = f'v1/companies/{encode_string_results(guid)}/findings'
+
+            params = {
+                'first_seen_gte': first_seen,
+                'last_seen_lte': last_seen,
+                'unsampled': 'true',
+                'expand': 'attributed_companies'
+            }
+            if optional_params:
+                params.update(optional_params)
+            remove_nulls_from_dictionary(params)
+
+            return self._http_request(
+                method='GET',
+                url_suffix=uri,
+                params=params
+            )
+
+
+
+
+        def get_request(self, uri="/v2/portfolio/"):
+            """
+            This is a generic function for get requests, changes by specifying uri
+
+            :param guid: guid of the company for the get request
+            """
+
+            return self._http_request(
+                method='GET',
+                url_suffix=uri
+            )
+
+        def bitsight_generic_sub_post(self, payload):
+            """
+            POST action depending on playload that: switch subscription, subscribe
+            """
+            params = demisto.params()
+            api_key = params.get('apikey', {})
+
+            url = "https://api.bitsighttech.com/v1/subscriptions"
+
+            return requests.request("POST",url, auth=(api_key,''), json=payload)
+
+
+
+        def Bitsight_subscribe(self, payload):
+            """
+            POST action that Subscribes a supplier
+            """
+            params = demisto.params()
+            api_key = params.get('apikey', {})
+
+            url = "https://api.bitsighttech.com/v1/subscriptions"
+
+            #r =  requests.request("POST",url, auth=(api_key,''), json=payload)
+            #response = r.json()
+
+            """
+             if (r.status_code == 200):
+                  if response['continuous_monitoring']['not_added'] > 0:
+                       print("Not Subscribed...")
+                       try:
+                            for company in response['continuous_monitoring']['companies'][0]['matching_companies']:
+                                 print("Company Name: " + company['name'] + " -- GUID: " + company['guid'])
+                            guid_input = input("Enter the GUID of the company you want to choose: ")
+                            payload = {"continuous_monitoring": {"companies": [{"guid":guid_input}]}}
+                            r = requests.request("POST",endpoint, auth=(api_key_bitsight,''), json=payload)
+                            response = r.json()
+                            if (r.status_code == 200):
+                                 if response['continuous_monitoring']['added'] > 0:
+                                      print("Company Subscribed")
+                                      return guid_input
+                       except KeyError:
+                            return -1 # Return Error
+                  else:
+                       print("Subscribed...")
+                       return response['continuous_monitoring']['companies'][0]['guid']
+             else:
+                  print("Status Code Error")
+            """
+        def Bitsight_Unsubscribe(self, guid):
+            """
+            POST action that Unsubscribes a Supplier
+            """
+            params = demisto.params()
+            api_key = params.get('apikey', {})
+
+            url = "https://api.bitsighttech.com/v1/subscriptions/" + guid
+
+            return requests.request("DELETE",url, auth=(api_key,''))
+
+
+
+        def get_findings(self, supplierID, parameters):
+
+            uri = "/v1/companies/"+supplierID+"/findings"
+
+            return self._http_request(
+                method='GET',
+                url_suffix=uri,
+                params=parameters
+            )
+
+
+    '''HELPER FUNCTIONS'''
+
+
+    def trim_spaces_from_args(args):
+        """
+        Trim spaces from values of the args dict.
+
+        :param args: Dict to trim spaces from
+        :type args: dict
+        :return:
+        """
+        for key, val in args.items():
+            if isinstance(val, str):
+                args[key] = val.strip()
+
+        return args
+
+
+    def camelize_strings_with_underscore(string: str):
+        """
+        Wrap CommonServerPython's camelize_string to also convert Pascal strings.
+
+        :param string: string to convert to camel case
+        """
+        if string.find("_") == -1:
+            return string[0].lower() + string[1:]
+        else:
+            return camelize_string(string, upper_camel=False)
+
+
+    def camelize_dict_recursively(src):
+        """
+        Camelize all the keys in a dictionary with nested dictionaries and lists.
+
+        :param src: the dictionary to camelize
+        """
+        destination = {}
+        for key, value in src.items():
+            if isinstance(value, dict):
+                destination[camelize_strings_with_underscore(key)] = camelize_dict_recursively(value)
+            elif isinstance(value, list):
+                if value and isinstance(value[0], dict):
+                    destination[camelize_strings_with_underscore(key)] = [camelize_dict_recursively(list_value) for
+                                                                          list_value in value]
+                else:
+                    destination[camelize_strings_with_underscore(key)] = value
+            else:
+                destination[camelize_strings_with_underscore(key)] = value
+        return destination
+
+
+    def prepare_and_validate_company_findings_get_filter_args(risk_vector_list, severity, asset_category):
+        """
+        Prepare and validate arguments for bitsight-company-findings-get.
+
+        :param risk_vector_list: input from argument risk_vector_label
+        :param severity: input from argument severity
+        :param asset_category: input from argument asset_category
+        """
+        risk_vector = ''
+        for vector in risk_vector_list:
+            if vector.lower() in RISK_VECTOR_MAPPING:
+                risk_vector += RISK_VECTOR_MAPPING[vector.lower()] + ','
+            else:
+                raise ValueError(ERROR_MESSAGES["INVALID_SELECT"].format(vector.lower(), 'risk_vector_label',
+                                                                         ", ".join(RISK_VECTOR_MAPPING.keys())))
+
+        risk_vector = risk_vector[:-1]
+
+        severity_gte = None
+        if severity:
+            if severity in SEVERITY_MAPPING:
+                severity_gte = SEVERITY_MAPPING[severity]
+            else:
+                raise ValueError(ERROR_MESSAGES["INVALID_SELECT"].format(severity, 'severity',
+                                                                         ", ".join(SEVERITY_MAPPING.keys())))
+
+        asset_category_eq = None
+        if asset_category:
+            if asset_category in ASSET_CATEGORY_MAPPING:
+                asset_category_eq = ASSET_CATEGORY_MAPPING[asset_category]
+            else:
+                raise ValueError(ERROR_MESSAGES["INVALID_SELECT"].format(asset_category, 'asset_category',
+                                                                         ", ".join(ASSET_CATEGORY_MAPPING.keys())))
+        return risk_vector, severity_gte, asset_category_eq
+
+
+    def prepare_and_validate_fetch_findings_args(client, args):
+        """
+        Prepare and validate arguments for company_findings_get_command when fetch_incidents is true.
+
+        :param client: client to use
+        :param args: arguments obtained from demisto.args()
+        """
+        guid = args.get('guid', None)
+        if not guid:
+            res = client.get_companies_guid()
+            if res.status_code == 200:
+                res_json = res.json()
+                guid = res_json.get('my_company', {}).get('guid')
+            else:
+                raise DemistoException(ERROR_MESSAGES["GUID_NOT_FETCHED"])
+        severity = args.get('findings_min_severity', None)
+        if severity:
+            severity = severity.lower()
+        grade = args.get('findings_grade', None)
+        asset_category = args.get('findings_min_asset_category', None)
+        if asset_category:
+            asset_category = asset_category.lower()
+        risk_vector_list = argToList(args.get('risk_vector'))
+        if 'All' in risk_vector_list:
+            risk_vector_list = []
+        limit = arg_to_number(args.get('max_fetch', DEFAULT_FETCH_LIMIT), 'Max Fetch', True)
+        if limit and (limit < 1 or limit > MAX_FETCH_LIMIT):  # type: ignore
+            raise ValueError(ERROR_MESSAGES["INVALID_MAX_FETCH"])
+
+        return guid, severity, grade, asset_category, risk_vector_list, limit
+
+
+    '''COMMAND FUNCTIONS'''
+
+
+    def fetch_incidents(client, last_run, params):
+        """
+        Fetch BitSight Findings.
+
+        :param client: client to use
+        :param last_run: last run object obtained from demisto.getLastRun()
+        :param params: arguments obtained from demisto.params()
+        """
+        events = []
+        try:
+            if "offset" in last_run:
+                params["offset"] = last_run["offset"]
+                last_run_date = last_run["first_fetch"]
+            else:
+                first_fetch = arg_to_number(params.get('first_fetch', DEFAULT_FIRST_FETCH_DAYS), 'First fetch time in days',
+                                            True)
+                if first_fetch < 0:  # type: ignore
+                    raise ValueError(ERROR_MESSAGES["NEGATIVE_FIRST_FETCH"])
+                today = datetime.now()
+                last_run_date = (today - timedelta(days=first_fetch)).strftime(BITSIGHT_DATE_TIME_FORMAT)  # type: ignore
+
+            report_entries = []
+            findings_res = company_findings_get_command(client, params, last_run_date, True)
+            report_entries.extend(findings_res.get('results', []))
+
+            for entry in report_entries:
+                # Set the Raw JSON to the event. Mapping will be done at the classification and mapping
+                event = {
+                    "name": "BitSight Finding - " + entry.get('temporary_id'),
+                    'occurred': entry.get('first_seen') + 'T00:00:00Z',
+                    "rawJSON": json.dumps(entry)}
+                events.append(event)
+
+            last_run = {'first_fetch': last_run_date,
+                        "offset": params["offset"] + len(report_entries) if params.get("offset") else len(report_entries)}
+
+        except Exception as e:
+            demisto.error('Failed to fetch events.')
+            raise e
+
+        return last_run, events
+
+
+    def test_module(client, params):
+        """
+        Returning 'ok' indicates that the integration works like it is supposed to. \
+        Connection to the service is successful. Anything else will fail the test.
+
+        :param client: client to use
+        :param params: parameters obtained from demisto.params()
+        """
+        res = client.get_companies_guid()
+
+        if params.get("isFetch", False):
+            available_guids = {c["guid"] for c in res["companies"]}
+            requested_guid = params.get("guid")
+
+            if not requested_guid:
+                raise ValueError(ERROR_MESSAGES["GUID_REQUIRED"])
+
+            if requested_guid not in available_guids:
+                raise ValueError(ERROR_MESSAGES["GUID_NOT_AVAILABLE"])
+            fetch_incidents(client, {}, params)
+        return 'ok'
+
+
+    def companies_guid_get_command(client, *args):
+        """
+        Retrieve subscribed company details.
+
+        :param client: client to use
+        """
+        res_json = client.get_companies_guid()
+        outputs = camelize_dict_recursively(remove_empty_elements(res_json))
+        context_output = {'BitSight.Company(val.guid == obj.guid)': outputs.get('companies', []),
+                          'BitSight.MyCompany(val.guid == obj.guid)': outputs.get('myCompany', {})}
+        hr = []
+        companies_list = outputs.get('companies', [])
+        for company in companies_list:
+            hr.append({
+                'Company Name': company.get('name'),
+                'Company Short Name': company.get('shortname'),
+                'GUID': company.get('guid'),
+                'Rating': company.get('rating')
+            })
+
+        readable_output = tableToMarkdown(name='Companies:',
+                                          metadata=f"My Company: {outputs.get('myCompany', {}).get('guid')}",
+                                          t=hr,
+                                          headers=["Company Name", "Company Short Name", "GUID", "Rating"],
+                                          removeNull=True
+                                          )
+
+        return CommandResults(
+            readable_output=readable_output,
+            outputs=context_output,
+            raw_response=outputs
+        )
+
+
+    def company_details_get_command(client, args):
+        """
+        Retrieve company details based on its Guid.
+
+        :param client: client to use
+        :param args: arguments obtained from demisto.args()
+        """
+        guid = args.get('guid')
+        res_json = client.get_company_detail(guid)
+
+        outputs = camelize_dict_recursively(remove_empty_elements(res_json))
+
+        outputs["ratingDetails"] = [value for _, value in outputs.get("ratingDetails", {}).items()]
+
+        company_info = {
+            'guid': res_json.get('guid'),
+            'customId': res_json.get('custom_id'),
+            'name': res_json.get('name'),
+            'description': res_json.get('description'),
+            'ipv4Count': res_json.get('ipv4_count'),
+            'peopleCount': res_json.get('people_count'),
+            'shortName': res_json.get('shortname'),
+            'industry': res_json.get('industry'),
+            'industrySlug': res_json.get('industry_slug'),
+            'subIndustry': res_json.get('sub_industry'),
+            'subIndustrySlug': res_json.get('sub_industry_slug'),
+            'homePage': res_json.get('homepage'),
+            'primaryDomain': res_json.get('primary_domain'),
+            'type': res_json.get('type'),
+            'displayURL': res_json.get('display_url'),
+            'serviceProvider': res_json.get('service_provider')
+        }
+        ratings = []
+        for rating in res_json.get('ratings', []):
+            rating_dict = {
+                'rating': rating.get('rating'),
+                'rating_date': rating.get('rating_date'),
+                'range': rating.get('range')
+            }
+            ratings.append(rating_dict)
+
+        rating_details = []
+        for rating_detail_key in res_json.get('rating_details', {}):
+            rating_detail = res_json.get('rating_details', {}).get(rating_detail_key, {})
+            rating_detail_dict = {
+                'name': rating_detail.get('name'),
+                'rating': rating_detail.get('rating'),
+                'percentile': rating_detail.get('percentile'),
+                'display_url': rating_detail.get('display_url')
+            }
+            rating_details.append(rating_detail_dict)
+
+        readable = {
+            'Company Info': company_info,
+            'Ratings': ratings,
+            'Rating Details': rating_details
+        }
+
+        readable_output = tableToMarkdown(name='Company Details:',
+                                          t=readable,
+                                          headers=["Company Info", "Ratings", "Rating Details"],
+                                          removeNull=True
+                                          )
+        return CommandResults(
+            readable_output=readable_output,
+            outputs_prefix='BitSight.Company',
+            outputs=outputs,
+            outputs_key_field='guid',
+            raw_response=res_json
+        )
+
+
+    def company_findings_get_command(client, args, first_seen=None, fetch_incidents=False):
+        """
+        Retrieve company findings based on its Guid.
+
+        :param client: client to use
+        :param args: arguments obtained from demisto.args()
+        :param first_seen: first seen of the finding
+        :param fetch_incidents: whether the command is called from fetch_incidents
+        """
+        last_seen = None
+        if fetch_incidents:
+            guid, severity, grade, asset_category, risk_vector_list, limit = prepare_and_validate_fetch_findings_args(
+                client, args)
+            offset = arg_to_number(args.get('offset', DEFAULT_OFFSET), 'offset')
+        else:
+            guid = args.get('guid')
+            severity = args.get('severity', None)
+            grade = args.get('grade', None)
+            asset_category = args.get('asset_category', None)
+            limit = arg_to_number(args.get('limit', DEFAULT_LIMIT), 'limit')
+            if limit and limit > MAX_LIMIT:  # type: ignore
+                raise ValueError(ERROR_MESSAGES["LIMIT_GREATER_THAN_ALLOWED"])
+            offset = arg_to_number(args.get('offset', DEFAULT_OFFSET), 'offset')
+            if severity:
+                severity = severity.lower()
+            if grade:
+                grade = grade.upper()
+            if asset_category:
+                asset_category = asset_category.lower()
+            risk_vector_list = argToList(args.get('risk_vector_label', []))
+            first_seen = args.get('first_seen')
+            last_seen = args.get('last_seen')
+
+        risk_vector, severity_gte, asset_category_eq = prepare_and_validate_company_findings_get_filter_args(
+            risk_vector_list,
+            severity,
+            asset_category)
+        res_json = client.get_company_findings(guid, first_seen, last_seen,
+                                               {"severity_gte": severity_gte, "details.grade": grade,
+                                                "assets.category": asset_category_eq,
+                                                "risk_vector": risk_vector, "limit": limit,
+                                                "offset": offset})
+
+        if fetch_incidents:
+            return res_json
+        res_json_cleaned = camelize_dict_recursively(remove_empty_elements(res_json))
+        readable_list = []
+        outputs = None
+        if res_json_cleaned.get("results", []):
+            for finding in res_json_cleaned.get("results", []):
+                readable = {
+                    'Evidence Key': finding.get('evidenceKey'),
+                    'Risk Vector Label': finding.get('riskVectorLabel'),
+                    'First Seen': finding.get('firstSeen'),
+                    'Last Seen': finding.get('lastSeen'),
+                    'ID': finding.get('temporaryId'),
+                    'Risk Category': finding.get('riskCategory'),
+                    'Severity': finding.get('severityCategory'),
+                    'Asset Category': "\n".join(
+                        [f"{asset.get('asset')}: {asset.get('category', '').title()}" for asset
+                         in finding.get('assets', [])]),
+                    'Finding Grade': finding.get('details', {}).get('grade', '').title()
+                }
+                readable_list.append(readable)
+            outputs = {
+                "BitSight.Company(val.guid == obj.guid)": {
+                    "guid": guid.lower(),
+                    "CompanyFinding": res_json_cleaned.get("results", [])
+                },
+                "BitSight.Page(val.name == obj.name)": {
+                    "name": "bitsight-company-findings-get",
+                    "next": res_json_cleaned.get("links", {}).get("next"),
+                    "previous": res_json_cleaned.get("links", {}).get("previous"),
+                    "count": res_json_cleaned.get("count")
+                }}
+
+        readable_output = tableToMarkdown(name='Company findings:',
+                                          t=readable_list,
+                                          metadata=f"Total Findings: {res_json_cleaned.get('count')}",
+                                          headers=["Evidence Key", "Risk Vector Label", "First Seen", "Last Seen",
+                                                   "ID", "Risk Category", "Severity", "Asset Category",
+                                                   "Finding Grade"],
+                                          removeNull=True
+                                          )
+        return CommandResults(
+            readable_output=readable_output,
+            outputs=outputs,
+            raw_response=res_json
+        )
+
+
+
+    def companies_get_request(client, args):
+
+        """
+        Retrieve subscribed company details.
+
+        :param client: client to use
+        """
+        map_domains_to_uid={}
+
+        data=client.get_request()
+                                      # HTTP request
+        if data == None:
+            # print("Error Mapping Subscriptions")
+            return None
+
+        subs=data.get("results")
+
+        # Get subscription from "results" in request
+        for i in range (0,len(subs)):
+            map_domains_to_uid[subs[i].get("primary_domain")] = subs[i].get("guid")                        # Get all {Domains : UID} in the portfolio
+
+
+        while(data.get("links").get("next") !=None):                                                         # Go through the "next" in while loop until there is no None content
+            new_endpoint=data.get("links").get("next").replace("https://api.bitsighttech.com", "")
+
+            data=client.get_request(uri = new_endpoint)                                                                # HTTP request to go "next"
+            if data == None:
+                print("Error Mapping Subscriptions2")
+                return None
+
+            subs=data.get("results")                                                                       # Get subscription from "results" in request (IN "NEXT" REQUEST)
+            for i in range (0,len(subs)):
+                map_domains_to_uid[subs[i].get("primary_domain")]=subs[i].get("guid")
+
+        # map_domains_to_uid
+        return map_domains_to_uid
+
+
+    def check_if_is_bitsight_sub(client, args):
+        """Returns: 1 for Total Risk sub, 2 for Risk Monitoring sub, 3 Non Sub"""
+
+        GUID = args.get('guid')
+
+        data=client.get_request(uri = "/v1/subscriptions")
+        if data == None:
+            # print("Error Mapping Subscriptions")
+            return None
+
+        for guid in data['continuous_monitoring']['companies']:
+          if guid['guid'] == GUID:
+               # print("Total Risk Monitoring Subscription Found...")
+               return 1  # Return 1 for Total Risk Monitoring Subscription
+
+        for guid in data['alerts-only']['companies']:
+            if guid['guid'] == GUID:
+                # print("Risk Monitoring Subscription Found...")
+                return 2 # Return 2 for Risk Monitoring Subscription
+
+        return 3  # Return 3 for Non Subscription
+
+    def switch_bitsight_subscription(client, args):
+        """POST to bitsight to switch subscription of the GUID"""
+        # uri = "/v1/subscriptions"
+        GUID = args.get('guid')
+        type_of_sub = args.get('type_of_sub')
+
+        if type_of_sub == "total_risk":
+            payload = {"continuous_monitoring": {"companies": [{"guid":GUID}]}}
+        elif type_of_sub == "risk":
+            payload = {"alerts-only": {"companies": [{"guid":GUID}]}}
+        r = client.bitsight_generic_sub_post(payload)
+        if r.status_code == 200:
+            return f"Successfully switched susbcription: {r.status_code}"
+        else:
+            return "Failed to switch subscription: {r.status_code}"
+
+
+
+    def check_is_service_provider(client, args):
+        """Returns true or false : depending on status as service provider"""
+        GUID = args.get('guid')
+        response =client.get_request(uri = "/v1/companies/" + GUID)
+        return response['service_provider']
+
+    def findings(client, args):
+        GUID = args.get('guid')
+        parameters = args.get('params')
+        response = client.get_findings(GUID, parameters)
+        return response
+
+
+
+    def get_generic_info(client,args):
+        GUID = args.get('guid')
+        response = client.get_request(uri ="v1/companies/"+GUID)
+        return response
+
+
+    def get_info_nist(client, args):
+        GUID = args.get('guid')
+
+        """ Gather Bitsight NIST info based on supplier ID: Return a dictionary containing bitsight analysis data for a specific supplier """
+        data = client.get_request(uri = "/v1/companies/"+GUID+"/regulatory/nist?format=json")    # NIST Request already in JSON format
+        if data==None:
+          return None
+
+        bitsight_analysis_data={}                                                                                          # Data to be loaded in excel
+        data_nist=data.get('functions')                                                                                    # Get NIST Data
+        data_domain=[]                                                                                                     # List to store Domains
+
+        vector=""
+        grade=""
+        for i in range(0,len(data_nist)):  # Go through all domains except Identify
+            data_domain=data_nist[i]
+            if data_domain.get("categories") != None:
+               data_categories=data_domain.get("categories")                                                            # Gather Data from categories if there is data to be collected
+            else:
+               data_categories=[]
+
+            for j in range(0,len(data_categories)):
+                # Loop through all the categories
+                if data_categories[j].get("subcategories") !=None:
+                    data_subcategories=data_categories[j].get("subcategories")                                          # Gather sub categories
+                else:
+                    data_subcategories=[]
+
+                for k in range(0,len(data_subcategories)): # Loop through all sub categories
+                    if data_subcategories[k].get("supported")==True:                                                    # Confirm if it has "supported" in Data
+                        control_name=data_subcategories[k].get("name")                                                 # Get Name (control name) from subcategory X
+                        overall_grade=data_subcategories[k].get("nist_grade")                                          # Get NIST grade from subcategory X
+                        bitsight_rational=data_subcategories[k].get("summary")                                         # Get Summary from subcategory X
+                        bitsight_rational=bitsight_rational.replace("We support","Bitsight supports")                  # Replace rational summary where "We support" changes to "Bitsight supports"
+
+                        if data_subcategories[k].get("risk_vectors")!=None:
+                            risk_vectors=data_subcategories[k].get("risk_vectors")                                    # Get from subcategories risk vectors data
+                        else:
+                            risk_vectors=[]
+
+                        risk_vectors_dictionary={"Overall": str(overall_grade)}                                        # Create a dictionary for risk vectors containing the overall grade
+                        for l in range(0,len(risk_vectors)):                                                           # Loop through all the risk vectors from data obtained
+                            if risk_vectors[l].get("label") !=None and risk_vectors[l].get("current_grade") !=None:  # If there is a Risk
+                                vector=risk_vectors[l].get("label")                                                  # Gather Label (vector of the risk)
+                                grade=risk_vectors[l].get("current_grade")                                           # Gather Current Grade (grade of the risk)
+                                risk_vectors_dictionary[vector]=grade                                                # Add to the dictionary {Vector: Grade}
+
+                            elif data_subcategories[k].get("headline") != None:                                       # Elif (Bitsight Rating)
+                                vector="BitSight Rating"                                                             # Vector = "Bitsight Rating"
+                                score=data_subcategories[k].get("headline")                                          # Gather Score of the Bitsight for that supplier
+                                risk_vectors_dictionary[vector]=str(score)                                           # Add to dictionary {"Bitsight Rating: Score"}
+                            else:
+                                return "error1"
+                                # print("Error1")
+                        bitsight_analysis_data[control_name]=[bitsight_rational,risk_vectors_dictionary]               # Add to bitsight analysis data (dictionary) # 1st Possibility (if there is a risk): {'Name': ['Summary', {'Overall': 'A', 'Vector': 'Grade'}]}
+        return bitsight_analysis_data
+
+
+
+
+
+    def matching_subscriptions(client, args) -> list:
+        """
+        Returns a list of dicts, with matching company names and GUID: input is domain
+        """
+
+        domain = args.get('domain')
+
+        payload = {"continuous_monitoring": {"companies": [{"url":domain}]}}
+
+        # requests.request("POST",endpoint, auth=(api_key_bitsight,''), json=payload)
+        r = client.bitsight_generic_sub_post(payload)
+
+        grid = []
+
+        response = r.json()
+        if (r.status_code == 200):
+            if response['continuous_monitoring']['not_added'] > 0:
+                for company in response['continuous_monitoring']['companies'][0]['matching_companies']:
+                    entry = {"Name":'',"GUID":''}
+                    entry['Name'] = company['name']
+                    entry['GUID'] = company['guid']
+                    grid.append(entry)
+        return grid
+
+
+    def bitsight_subscribe_supplier(client, args):
+        """
+        Subscribes a supplier
+        """
+
+        guid_input = args.get('guid', '')
+        domain = args.get('domain','')
+
+        # Function subscribes the supplier on bitsight based on domain
+        if domain != "":
+            # Sub for Total Risk Monitoring
+            payload = {"continuous_monitoring": {"companies": [{"url":domain}]}}
+
+            # requests.request("POST",endpoint, auth=(api_key_bitsight,''), json=payload)
+            r = client.bitsight_generic_sub_post(payload)
+
+            response = r.json()
+            if (r.status_code == 200):
+                try:
+                    if response['continuous_monitoring']['not_added'] > 0:
+                        # print("NOT Subscribed...")
+                        return "Not Subscribed..."
+                    else:
+                        # print("Subscribed...")
+                        return response['continuous_monitoring']['companies'][0]['guid']
+                except KeyError:
+                    return -1 # Return Error
+            else:
+                return "Status Code Error: " + r.status_code
+                # print("Status Code Error: ", r.status_code)
+
+        if guid_input !="": # Subscribe using guid
+            payload = {"continuous_monitoring": {"companies": [{"guid":guid_input}]}}
+            r = client.bitsight_generic_sub_post(payload)
+            response = r.json()
+            if (r.status_code == 200):
+                if response['continuous_monitoring']['added'] > 0:
+                    return "Subscribed - " + guid_input
+            else:
+                return "status code error"
+                # print("Status Code Error: ", r.status_code)
+
+
+
+
+
+    def bitsight_unsubscribe_suplier(client, args):
+        """Unsubscribe a Supplier: receives guid and json payload"""
+        guid = args.get('guid')
+        payload = args.get('payload')
+        r = client.Bitsight_Unsubscribe(guid)
+        if (r.status_code == 204):
+            return "supplier unsubscribed..."
+            # print("Supplier unsubscribed...")
+        else:
+            return "Erro unsubcribing the domain"
+            # print("Error unsubscribing the domain...")
+
+
+
+    def main():
+        """PARSE AND VALIDATE INTEGRATION PARAMS."""
+        command = demisto.command()
+        params = demisto.params()
+        verify_certificate = not params.get('insecure', False)
+        proxy = params.get('proxy', False)
+        api_key = params.get('apikey', {})
+
+        demisto.info(f'Command being called is {command}')
+
+        client = Client(
+            base_url=BASE_URL,
+            verify=verify_certificate,
+            proxy=proxy,
+            ok_codes=[200],
+            auth=requests.auth.HTTPBasicAuth(api_key, '')
+        )
+
+        try:
+            '''EXECUTION CODE'''
+            if demisto.command() == 'test-module':
+                # This is the call made when pressing the integration Test button.
+                return_results(test_module(client, params))
+            elif demisto.command() == 'fetch-incidents':
+                last_run = demisto.getLastRun()
+                last_run_curr, events = fetch_incidents(client, last_run, params)
+
+                demisto.setLastRun(last_run_curr)
+                demisto.incidents(events)
+            else:
+                COMMAND_TO_FUNCTION = {
+                    'bitsight-company-details-get': company_details_get_command,
+                    "bitsight-company-findings-get": company_findings_get_command,
+                    "bitsight-companies-guid-get": companies_guid_get_command,
+                    "bitsight-map-subscriptions": companies_get_request,
+                    "bitsight-check-subscription": check_if_is_bitsight_sub,
+                    "bitsight-switch-subscription": switch_bitsight_subscription,
+                    'bitsight-check-is-service-provider': check_is_service_provider,
+                    'bitsight-info-nist':get_info_nist, #this could be internal only?
+                    'bitsight-generic-findings':findings,
+                    'bitsight-get-generic-info':get_generic_info,
+                    'bitsight-unsubscribe-supplier':bitsight_unsubscribe_suplier,
+                    'bitsight-matching-companies': matching_subscriptions,
+                    'bitsight-subscribe-supplier': bitsight_subscribe_supplier
+
+                }
+                if COMMAND_TO_FUNCTION.get(demisto.command()):
+                    args = demisto.args()
+                    remove_nulls_from_dictionary(trim_spaces_from_args(args))
+
+                    return_results(COMMAND_TO_FUNCTION[demisto.command()](client, args))  # type: ignore
+                else:
+                    raise NotImplementedError(f'Command {demisto.command()} is not implemented')
+
+        # Log exceptions
+        except Exception as e:
+            return_error(f'Failed to execute {demisto.command()} command.\nError:\n{e}')
+
+
+    if __name__ in ['__main__', 'builtin', 'builtins']:
+        main()
+
+    register_module_line('BitSight for Security Performance Management', 'end', __line__())
+  type: python
+  commands:
+  - name: bitsight-company-details-get
+    arguments:
+    - name: guid
+      required: true
+      description: |-
+        GUID of the company to fetch its details.
+
+        Note: Users can get the list of the GUID by executing the "bitsight-companies-guid-get" command.
+    outputs:
+    - contextPath: BitSight.Company.guid
+      description: The unique identifier of this company.
+      type: string
+    - contextPath: BitSight.Company.customId
+      description: The customizable ID assigned to this company.
+      type: string
+    - contextPath: BitSight.Company.name
+      description: The name of this company.
+      type: string
+    - contextPath: BitSight.Company.description
+      description: Details about this company, which typically includes its industry
+        and location.
+      type: string
+    - contextPath: BitSight.Company.ipv4Count
+      description: The number of IP addresses attributed to this company.
+      type: number
+    - contextPath: BitSight.Company.peopleCount
+      description: The number of employees in this company.
+      type: number
+    - contextPath: BitSight.Company.shortname
+      description: The abbreviated name of this company.
+      type: string
+    - contextPath: BitSight.Company.industry
+      description: The industry of this company.
+      type: string
+    - contextPath: BitSight.Company.industrySlug
+      description: The industry slug name of this company.
+      type: string
+    - contextPath: BitSight.Company.subIndustry
+      description: The sub-industry of this company.
+      type: string
+    - contextPath: BitSight.Company.subIndustrySlug
+      description: The sub-industry slug name of this company.
+      type: string
+    - contextPath: BitSight.Company.homePage
+      description: The URL of this company's primary external website.
+      type: string
+    - contextPath: BitSight.Company.primaryDomain
+      description: The name of this company's primary domain.
+      type: string
+    - contextPath: BitSight.Company.type
+      description: The type of rating.
+      type: string
+    - contextPath: BitSight.Company.displayURL
+      description: The URL to this company's overview page in the BitSight platform.
+      type: string
+    - contextPath: BitSight.Company.ratingDetails.name
+      description: The name of this risk vector.
+      type: string
+    - contextPath: BitSight.Company.ratingDetails.rating
+      description: Internal rating of this risk vector.
+      type: number
+    - contextPath: BitSight.Company.ratingDetails.grade
+      description: The letter grade of this risk vector.
+      type: string
+    - contextPath: BitSight.Company.ratingDetails.percentile
+      description: This company's performance on this risk vector against their peers.
+      type: number
+    - contextPath: BitSight.Company.ratingDetails.gradeColor
+      description: The hex code to display letter grade colors in HTML applications.
+      type: string
+    - contextPath: BitSight.Company.ratingDetails.category
+      description: The risk category of this risk vector.
+      type: string
+    - contextPath: BitSight.Company.ratingDetails.categoryOrder
+      description: Used to visually sort this risk category in the BitSight platform.
+      type: number
+    - contextPath: BitSight.Company.ratingDetails.beta
+      description: A true value indicates this risk vector is in beta and does not
+        affect this company's security rating.
+      type: boolean
+    - contextPath: BitSight.Company.ratingDetails.order
+      description: Used to visually sort this risk vector in the BitSight platform.
+      type: number
+    - contextPath: BitSight.Company.ratingDetails.displayUrl
+      description: The URL in the BitSight platform that contains the details of this
+        risk vector.
+      type: string
+    - contextPath: BitSight.Company.ratings.ratingDate
+      description: The date when this BitSight Security Rating Report was generated.
+      type: date
+    - contextPath: BitSight.Company.ratings.rating
+      description: The BitSight Security Rating of this company on this day.
+      type: number
+    - contextPath: BitSight.Company.ratings.range
+      description: The rating category of this company on this day.
+      type: string
+    - contextPath: BitSight.Company.ratings.ratingColor
+      description: The hex code to display rating category colors in HTML applications.
+      type: string
+    - contextPath: BitSight.Company.searchCount
+      description: The number of times this company has been listed in search results.
+      type: number
+    - contextPath: BitSight.Company.subscriptionType
+      description: The type of subscription used to monitor this company.
+      type: string
+    - contextPath: BitSight.Company.sparkline
+      description: The URL path to the security rating trend line of this company
+        during the past one year.
+      type: string
+    - contextPath: BitSight.Company.subscriptionTypeKey
+      description: The slug name of the subscription used to monitor this company.
+      type: string
+    - contextPath: BitSight.Company.subscriptionEndDate
+      description: The date when the subscription to this company expires.
+      type: date
+    - contextPath: BitSight.Company.bulkEmailSenderStatus
+      description: A FULL value indicates this company provides bulk email sending
+        services, which excludes this company from the Spam Propagation risk vector.
+      type: string
+    - contextPath: BitSight.Company.serviceProvider
+      description: A true value indicates this company is a service provider.
+      type: boolean
+    - contextPath: BitSight.Company.customerMonitoringCount
+      description: The number of companies that are monitoring this company.
+      type: number
+    - contextPath: BitSight.Company.availableUpgradeTypes
+      description: For internal BitSight use.
+      type: string
+    - contextPath: BitSight.Company.hasCompanyTree
+      description: A true value indicates this company has a Ratings Tree.
+      type: boolean
+    - contextPath: BitSight.Company.hasPreferredContact
+      description: For internal BitSight use.
+      type: boolean
+    - contextPath: BitSight.Company.isBundle
+      description: A true value indicates this company is part of a ratings bundle.
+      type: boolean
+    - contextPath: BitSight.Company.ratingIndustryMedian
+      description: Indicates this company's position in the peer group distribution
+        chart.
+      type: string
+    - contextPath: BitSight.Company.primaryCompany.guid
+      description: The unique identifier of this organization's primary company.
+      type: string
+    - contextPath: BitSight.Company.primaryCompany.name
+      description: The name of this organization's primary company.
+      type: string
+    - contextPath: BitSight.Company.permissions.canDownloadCompanyReport
+      description: A true value indicates you can view and download BitSight Security
+        Rating Reports (PDF).
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canViewForensics
+      description: A true value indicates you have the Event Forensics add-on package.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canViewServiceProviders
+      description: A true value indicates you can access BitSight for Fourth Party
+        Risk Management.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canRequestSelfPublishedEntity
+      description: A true value indicates you can request the creation of a self-published
+        rating.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canViewInfrastructure
+      description: A true value indicates you can view your infrastructure attribution.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canAnnotate
+      description: A true value indicates you can identify assets and segment your
+        network with infrastructure tags.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canViewCompanyReports
+      description: A true value indicates you can view BitSight Security Rating Reports.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canManagePrimaryCompany
+      description: A true value indicates you can highlight a primary for your organization.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.hasControl
+      description: For internal BitSight use.
+      type: boolean
+    - contextPath: BitSight.Company.permissions.canEnableVendorAccess
+      description: A true value indicates you can modify vendor access.
+      type: boolean
+    - contextPath: BitSight.Company.isPrimary
+      description: A true value indicates your company is the primary for your organization.
+      type: boolean
+    - contextPath: BitSight.Company.securityGrade
+      description: For internal BitSight use.
+      type: string
+    - contextPath: BitSight.Company.inSpmPortfolio
+      description: A true value indicates this company is in your Security Performance
+        Management portfolio (My Company, SPM Subsidiary, etc.).
+      type: boolean
+    - contextPath: BitSight.Company.isMycompMysubsBundle
+      description: For internal BitSight use.
+      type: string
+    - contextPath: BitSight.Company.companyFeatures
+      description: For internal BitSight use.
+      type: string
+    description: BitSight command to get company details based on the provided GUID.
+      The details include rating details, rating history, and grades for individual
+      risk vectors.
+    execution: true
+  - name: bitsight-company-findings-get
+    arguments:
+    - name: guid
+      required: true
+      description: |-
+        GUID of the company.
+
+        Note: Users can get the list of the GUID by executing the "bitsight-companies-guid-get" command.
+    - name: first_seen
+      required: true
+      description: 'Filter the findings that were seen on and after this date. Format
+        accepted: YYYY-MM-DD, Example: 2021-01-01.'
+    - name: last_seen
+      required: true
+      description: 'Filter the findings that were seen on and prior to this date.
+        Format accepted: YYYY-MM-DD, Example: 2021-01-01.'
+    - name: severity
+      auto: PREDEFINED
+      predefined:
+      - minor
+      - moderate
+      - material
+      - severe
+      description: Minimum Severity of the findings.
+    - name: grade
+      description: 'Filter by the grade of the findings. Supports comma separated
+        values. Select the values from the list of predefined values: good, fair,
+        warn, bad and, neutral.'
+      isArray: true
+    - name: asset_category
+      auto: PREDEFINED
+      predefined:
+      - low
+      - medium
+      - high
+      - critical
+      description: |-
+        Minimum Asset Category of the findings.
+
+        Example: If low is selected from the options then low, medium, high, and critical will be considered in retrieving results.
+    - name: risk_vector_label
+      description: 'Risk category of the findings. Supports comma separated values.
+        Select the values from the list of predefined values: Web Application Headers,
+        Botnet Infections, Breaches, Desktop Software, DKIM, DNSSEC, File Sharing,
+        Insecure Systems, Malware Servers, Mobile App Publications, Mobile Application
+        Security, Mobile Software, Open Ports, Patching Cadence, Potentially Exploited,
+        Server Software, Spam Propagation, SPF, SSL Certificates, SSL Configurations
+        and, Unsolicited Communications.'
+      isArray: true
+    - name: limit
+      description: |-
+        Set the maximum number of results to be retrieved. The maximum value is 1000.
+
+        Note: If a negative value is provided then the default value of 100 will be used.
+      defaultValue: "100"
+    - name: offset
+      description: Set the starting point of the results to be returned. A 0 (zero)
+        value starts the results from the first record in the result set.
+      defaultValue: "0"
+    outputs:
+    - contextPath: BitSight.Company.guid
+      description: The unique identifier of this company.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.temporaryId
+      description: A temporary identifier for this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.affectsRating
+      description: Indicates if this finding has an impact on the letter grade.
+      type: boolean
+    - contextPath: BitSight.Company.CompanyFinding.assets.asset
+      description: The asset (IP address or domain) associated with this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.assets.identifier
+      description: Identifier associated with the asset.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.assets.category
+      description: The BitSight-calculated asset importance.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.assets.importance
+      description: For internal BitSight use.
+      type: number
+    - contextPath: BitSight.Company.CompanyFinding.assets.isIp
+      description: A true value indicates this asset is an IP address.
+      type: boolean
+    - contextPath: BitSight.Company.CompanyFinding.details
+      description: Details of this finding. The included keys vary, depending on the
+        following risk types Compromised Systems, Diligence, File Sharing.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.evidenceKey
+      description: The company's asset (domain or IP address) that's attributed to
+        the finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.firstSeen
+      description: The date of the first observation.
+      type: date
+    - contextPath: BitSight.Company.CompanyFinding.lastSeen
+      description: The date of the most recent observation.
+      type: date
+    - contextPath: BitSight.Company.CompanyFinding.relatedFindings
+      description: Details of related findings.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.riskCategory
+      description: The risk category associated with this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.riskVector
+      description: The slug name of the risk vector associated with this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.riskVectorLabel
+      description: The name of the risk vector associated with this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.rolledupObservationId
+      description: A unique identifier for this observation.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.severity
+      description: The severity of the finding, which is the measured risk that this
+        finding introduces.
+      type: number
+    - contextPath: BitSight.Company.CompanyFinding.severityCategory
+      description: The slug name of the finding severity.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.tags
+      description: Infrastructure tags that help identify this asset.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.duration
+      description: For internal BitSight use.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.comments
+      description: A thread of finding comments.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.remainingDecay
+      description: For internal BitSight use.
+      type: number
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRequestedRefreshDate
+      description: The date when a record refresh that included this finding was last
+        requested.
+      type: date
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRefreshStatusDate
+      description: The date when a refresh of the remediation status of this finding
+        was last requested.
+      type: date
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRefreshStatusLabel
+      description: The current record refresh status of this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRefreshReasonCode
+      description: The reason code of the last refresh of this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRemediationStatusLabel
+      description: The current remediation status of this finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRemediationStatusDate
+      description: The date when the remediation status of this finding was last changed.
+      type: date
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.remediationAssignments
+      description: The users who are assigned to remediate this finding.
+      type: unknown
+    - contextPath: BitSight.Company.CompanyFinding.remediationHistory.lastRemediationStatusUpdatedBy
+      description: The name of the user who updated the remediation status of this
+        finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.assetOverrides.asset
+      description: The domain or IP address of the overridden asset.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.assetOverrides.importance
+      description: The user-assigned asset importance.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.assetOverrides.overrideImportance
+      description: For internal BitSight use.
+      type: unknown
+    - contextPath: BitSight.Company.CompanyFinding.attributedCompanies.guid
+      description: The unique identifier of the company attributed to the finding.
+      type: string
+    - contextPath: BitSight.Company.CompanyFinding.attributedCompanies.name
+      description: The name of the company that is attributed to the finding.
+      type: string
+    - contextPath: BitSight.Page.name
+      description: Name of the command.
+      type: String
+    - contextPath: BitSight.Page.next
+      description: The URL to navigate to the next page of results.
+      type: String
+    - contextPath: BitSight.Page.previous
+      description: The URL to navigate to the previous page of results.
+      type: String
+    - contextPath: BitSight.Page.count
+      description: The number of findings.
+      type: Number
+    description: BitSight command to get company findings.
+  - name: bitsight-companies-guid-get
+    arguments: []
+    outputs:
+    - contextPath: BitSight.Company.name
+      description: Name of this company.
+      type: String
+    - contextPath: BitSight.Company.shortname
+      description: The abbreviated name of this company.
+      type: String
+    - contextPath: BitSight.Company.guid
+      description: The unique identifier of this company.
+      type: String
+    - contextPath: BitSight.Company.customId
+      description: The customizable ID assigned to this company.
+      type: String
+    - contextPath: BitSight.Company.networkSizeV4
+      description: The number of IPv4 addresses attributed to this company.
+      type: Number
+    - contextPath: BitSight.Company.rating
+      description: The most recent security rating of this company.
+      type: Number
+    - contextPath: BitSight.Company.ratingDate
+      description: The date when the rating report for this company was generated.
+      type: Date
+    - contextPath: BitSight.Company.dateAdded
+      description: The date when this company was added to your portfolio.
+      type: Date
+    - contextPath: BitSight.Company.industry
+      description: The industry of this company.
+      type: String
+    - contextPath: BitSight.Company.industrySlug
+      description: The slug name of this company's industry.
+      type: String
+    - contextPath: BitSight.Company.subIndustry
+      description: The sub-industry of this company.
+      type: String
+    - contextPath: BitSight.Company.subIndustrySlug
+      description: The slug name of this company's sub-industry.
+      type: String
+    - contextPath: BitSight.Company.type
+      description: The rating type.
+      type: String
+    - contextPath: BitSight.Company.logo
+      description: The URL in the BitSight platform to this company's logo image.
+      type: String
+    - contextPath: BitSight.Company.sparkline
+      description: The URL in the BitSight platform to this company's historical ratings
+        trend line.
+      type: String
+    - contextPath: BitSight.Company.externalId
+      description: The external ID assigned to this company.
+      type: Number
+    - contextPath: BitSight.Company.subscriptionType
+      description: The subscription type used to monitor this company.
+      type: String
+    - contextPath: BitSight.Company.subscriptionTypeKey
+      description: The slug name of the subscription type used to monitor this company.
+      type: String
+    - contextPath: BitSight.Company.primaryDomain
+      description: The primary domain of this company.
+      type: String
+    - contextPath: BitSight.Company.securityGrade
+      description: For internal BitSight use.
+      type: String
+    - contextPath: BitSight.Company.gradeDate
+      description: For internal BitSight use.
+      type: Date
+    - contextPath: BitSight.Company.displayURL
+      description: The URL in the BitSight platform to this company's overview page.
+      type: String
+    - contextPath: BitSight.Company.href
+      description: The URL in the BitSight platform to this company's page.
+      type: String
+    - contextPath: BitSight.MyCompany.guid
+      description: The unique identifier of my company.
+      type: String
+    description: BitSight command to get list of companies and GUID.
+  - name: bitsight-map-subscriptions
+    arguments: []
+    description: BitSight command to get list of matching company names and GUID
+  - name: bitsight-check-subscription
+    arguments:
+    - name: guid
+      required: true
+      description: GUID of supplier to check
+    description: 'BitSight command returns:  1 for Total Risk, 2 for Risk Monitoring,
+      3 Non Sub'
+  - name: bitsight-switch-subscription
+    arguments:
+    - name: guid
+      required: true
+      description: supplier guid
+    - name: type_of_sub
+      required: true
+      description: '"total_risk" or "risk"'
+    description: BitSight command to switch subscription of the GUID
+  - name: bitsight-info-nist
+    arguments:
+    - name: guid
+      required: true
+    description: BitSight command to switch subscription of the GUID
+  - name: bitsight-check-is-service-provider
+    arguments:
+    - name: guid
+      required: true
+    description: 'BitSight command returns: true or false'
+  - name: bitsight-generic-findings
+    arguments:
+    - name: guid
+      required: true
+    - name: params
+      required: true
+    description: BitSight Command to get information of a given supplier
+  - name: bitsight-get-generic-info
+    arguments:
+    - name: guid
+      required: true
+    description: BitSight Command to get information of a given supplier
+  - name: bitsight-unsubscribe-supplier
+    arguments:
+    - name: guid
+      required: true
+    description: BitSight command to unsubscribe a supplier
+  - name: bitsight-matching-companies
+    arguments:
+    - name: domain
+      required: true
+    description: BitSight command to get matching company names and their GUID
+  - name: bitsight-subscribe-supplier
+    arguments:
+    - name: domain
+    - name: guid
+    description: BitSight command to subscribe a supplier
+  dockerimage: demisto/python3:3.10.13.72123
+  isfetch: true
+  runonce: false
+  subtype: python3
+sourcemoduleid: BitSight for Security Performance Management
